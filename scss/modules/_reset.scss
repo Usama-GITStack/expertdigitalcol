@@ -1,0 +1,13 @@
+body {
+  background: $grey-bg;
+  counter-reset: item;
+  font-family: "Roboto";
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+a {
+  cursor: pointer;
+}

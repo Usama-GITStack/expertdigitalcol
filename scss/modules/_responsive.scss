@@ -1,0 +1,538 @@
+@media only screen and (max-width: 480px) {
+  .header_area {
+    padding: 10px 0px;
+  }
+
+  .intro-sec {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    .content {
+      .title {
+        font-size: 50px;
+      }
+    }
+  }
+
+  .bussiness-intro {
+    margin-bottom: 50px;
+    padding-top: 50px;
+    position: relative;
+    .media {
+      &:before {
+        left: 7px;
+      }
+    }
+    .content {
+      margin-top: 50px;
+    }
+  }
+
+  .skill-snaps {
+    position: relative;
+    padding: 100px 0px;
+    &:after {
+      width: 100%;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+    }
+  }
+
+  .brand-health {
+    padding: 50px 0px;
+  }
+
+  .project-slider {
+    padding: 50px 0px 0px 0px;
+    position: relative;
+    .container-fluid {
+      padding: 0px 15px !important;
+      .owl-stage-outer {
+        .owl-stage {
+          .owl-item {
+            .content {
+              .title-head {
+                h2 {
+                  width: 90%;
+                  padding-left: 15px;
+                }
+              }
+            }
+            .project-foot {
+              padding-left: 20px !important;
+            }
+          }
+        }
+      }
+    }
+    &:after {
+      content: "";
+      height: 100%;
+      width: 100%;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+    }
+  }
+
+  .services-sec {
+    padding: 50px 0px;
+    .section-head {
+      margin-bottom: 40px;
+      .title {
+        font-size: 25px !important;
+      }
+    }
+
+    .services_list {
+      overflow: hidden;
+      .services_item {
+        margin: 60px 0px;
+        .content {
+          width: 100%;
+          padding: 30px 25px;
+        }
+        &:nth-child(even) {
+          .row {
+            display: flex;
+            flex-direction: column-reverse;
+          }
+        }
+      }
+    }
+  }
+
+  .section-head {
+    .title {
+      font-size: 26px;
+    }
+  }
+
+  .why-us {
+    .title {
+      font-size: 32px;
+    }
+  }
+  .portfolio-items {
+    .col-md-6 {
+      &:nth-child(even) {
+        margin-top: 0px;
+      }
+    }
+  }
+
+  header {
+    background: rgba(190, 190, 190, 0.9);
+    .menu_nav {
+      li {
+        border-bottom: 0.5px solid #ffffff;
+      }
+    }
+  }
+
+  footer {
+    .primary-footer {
+      padding: 60px 0px 0px 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 481px) {
+  .header_area {
+    padding: 10px 0px;
+  }
+
+  .intro-sec {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    .content {
+      .title {
+        font-size: 50px;
+      }
+    }
+  }
+
+  .bussiness-intro {
+    margin-bottom: 50px;
+    padding-top: 50px;
+    position: relative;
+    .media {
+      &:before {
+        left: 7px;
+      }
+    }
+    .content {
+      margin-top: 50px;
+    }
+  }
+
+  .skill-snaps {
+    position: relative;
+    padding: 100px 0px;
+    &:after {
+      width: 100%;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+    }
+  }
+
+  .brand-health {
+    padding: 50px 0px;
+  }
+
+  .project-slider {
+    padding: 50px 0px;
+    position: relative;
+    &:after {
+      content: "";
+      height: 100%;
+      width: 100%;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+    }
+  }
+
+  .services-sec {
+    padding: 50px 0px;
+    .section-head {
+      margin-bottom: 40px;
+      .title {
+        font-size: 25px !important;
+      }
+    }
+
+    .services_list {
+      overflow: hidden;
+      .services_item {
+        margin: 20px 0px;
+        .media {
+          justify-content: flex-end;
+          margin-bottom: 10px;
+          img {
+            max-width: 480px;
+          }
+        }
+        .content {
+          width: 100%;
+          padding: 30px 25px;
+          .title {
+            font-size: 32px;
+            &:before {
+              left: -15px;
+            }
+          }
+        }
+        &:nth-child(even) {
+          .row {
+            display: flex;
+            flex-direction: column-reverse;
+          }
+        }
+      }
+    }
+  }
+
+  .section-head {
+    .title {
+      font-size: 26px;
+    }
+  }
+
+  .why-us {
+    .title {
+      font-size: 32px;
+    }
+  }
+
+  .portfolio-items {
+    .col-md-6 {
+      &:nth-child(even) {
+        margin-top: 0px;
+      }
+    }
+  }
+
+  header {
+    background: rgba(190, 190, 190, 0.9);
+    .menu_nav {
+      li {
+        border-bottom: 0.5px solid #ffffff;
+      }
+    }
+  }
+
+  footer {
+    .primary-footer {
+      padding: 60px 0px 0px 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .header_area {
+    padding: 10px 0px;
+  }
+
+  .intro-sec {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    .content {
+      .title {
+        font-size: 50px;
+      }
+    }
+  }
+
+  .bussiness-intro {
+    margin-bottom: 50px;
+    padding-top: 50px;
+    position: relative;
+    .media {
+      &:before {
+        left: 7px;
+      }
+    }
+    .content {
+      margin-top: 50px;
+    }
+  }
+
+  .skill-snaps {
+    position: relative;
+    padding: 100px 0px;
+    &:after {
+      width: 100%;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+    }
+  }
+
+  .brand-health {
+    padding: 50px 0px;
+  }
+
+  .project-slider {
+    padding: 50px 0px;
+    position: relative;
+    &:after {
+      content: "";
+      height: 100%;
+      width: 100%;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+    }
+  }
+
+  .services-sec {
+    padding: 50px 0px;
+    .section-head {
+      margin-bottom: 40px;
+      .title {
+        font-size: 25px !important;
+      }
+    }
+
+    .services_list {
+      overflow: hidden;
+      .services_item {
+        margin: 20px 0px;
+        .media {
+          justify-content: flex-end;
+          margin-bottom: 10px;
+          img {
+            max-width: 480px;
+          }
+        }
+        .content {
+          width: 100%;
+          padding: 30px 25px;
+          .title {
+            font-size: 32px;
+            &:before {
+              left: -15px;
+            }
+          }
+        }
+        &:nth-child(even) {
+          .row {
+            display: flex;
+            flex-direction: column-reverse;
+          }
+        }
+      }
+    }
+  }
+
+  .section-head {
+    .title {
+      font-size: 26px;
+    }
+  }
+
+  .why-us {
+    .title {
+      font-size: 32px;
+    }
+  }
+
+  header {
+    background: rgba(190, 190, 190, 0.9);
+    .menu_nav {
+      li {
+        border-bottom: 0.5px solid #ffffff;
+      }
+    }
+  }
+
+  footer {
+    .primary-footer {
+      padding: 60px 0px 0px 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 1388px) and (min-width: 992px) {
+}
+
+@media screen and (max-width: 1488px) and (min-width: 993px) {
+}
+
+@media only screen and (max-width: 1588px) and (min-width: 1440px) {
+  .intro-sec {
+    .col-md-10.m-auto {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  .bussiness-intro {
+    .container {
+      .col-xl-11.m-auto {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    }
+  }
+  .brand-health {
+    &:before {
+      height: 70%;
+      top: 17%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1900px) and (min-width: 1589px) {
+  .intro-sec {
+    .col-md-10.m-auto {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  .bussiness-intro {
+    .container {
+      .col-xl-11.m-auto {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    }
+  }
+  .brand-health {
+    &:before {
+      height: 77%;
+      top: 21%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .container {
+    min-width: 75%;
+  }
+  .header_area {
+    .menu_nav {
+      li {
+        min-width: 200px;
+      }
+    }
+  }
+
+  .intro-sec {
+    .col-md-10.m-auto {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    &:after {
+      height: 110%;
+    }
+    &:before {
+      height: 100%;
+    }
+  }
+
+  .about-us-content {
+    .about-us-item {
+      p {
+        width: 75%;
+      }
+    }
+  }
+  .bussiness-intro {
+    .container {
+      .col-md-11.m-auto {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+      .col-xl-11.m-auto {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    }
+  }
+
+  .brand-health {
+    .container {
+      min-width: 88%;
+    }
+    &:before {
+      height: 77%;
+      top: 21%;
+    }
+    &:after {
+      height: 95%;
+      top: 0;
+    }
+  }
+  .page-footer {
+    .container {
+      min-width: 80%;
+    }
+  }
+  .project-slider {
+    .owl-stage-outer {
+      .owl-stage {
+        .owl-item {
+          &.center {
+            max-width: 60% !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* ----------- iPad Pro ----------- */
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {
+}
+
+// ipad
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+}
+
+// Iphone XS Max
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+}

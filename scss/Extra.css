@@ -1,0 +1,363 @@
+#ItemSection:hover {
+    cursor: pointer;
+}
+
+
+.page-center {
+    max-width: 1210px;
+    padding: 0 20px;
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+.iconsetdropdown {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.Font_Color {
+    color: #393a3c !important;
+}
+
+
+li.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    background-color: #bebebe;
+    border-radius: 0px;
+    margin-top: -1%;
+    margin-left: 20%;
+}
+
+.dropdown-item {
+    border-bottom: 1px solid rgb(165, 165, 165);
+
+}
+
+.dropdown-menu-list:hover {
+    background-color: #a8a8a8 !important;
+
+}
+
+
+.dropdown-menu-list>a {
+    color: white;
+    margin-left: 6%;
+    font-size: 16px;
+}
+
+.dropdown-menu-list>a:hover {
+    text-decoration: none !important;
+}
+
+.fontsizeContactUs {
+    font-size: 26px !important;
+}
+
+.nav_bg_color {
+    background-color: #2b2c2e !important;
+    padding: 9px 0;
+}
+
+
+.nav-link {
+    color: white !important;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 15px;
+}
+
+
+.nav-link:hover {
+    color: #f5b860 !important;
+}
+
+.dropdown-item:hover {
+    background-color: #acacac;
+    color: #2b2c2e;
+}
+
+.List_color {
+    color: white;
+}
+
+.learnmorbutton {
+    height: 70px !important;
+    width: 225px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2b2c2e;
+    background: #faf000 !important;
+    margin: auto;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.learnmorbutton1 {
+    height: 70px !important;
+    width: 225px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: #2b2c2e !important;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+.learnmorbutton:hover {
+    color: #2b2c2e;
+    text-decoration: none;
+}
+
+.setbootompadd {
+    margin-bottom: 20px !important;
+}
+
+.inputcolorwhite::placeholder {
+    color: white !important;
+}
+
+.inputcolorwhite {
+    color: white !important;
+}
+
+.navbuttonset {
+    height: 40px !important;
+    width: 150px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white !important;
+    background: #93949866 !important;
+    margin: auto;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: none !important;
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+.buttoniconset {
+    margin-right: 8%;
+}
+
+.header_area {
+    padding: 20px 0px !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.skill-snaps:after {
+    content: "";
+    height: 100%;
+    width: 90%;
+    position: absolute;
+    background-image: url(../img/bg/skills-bg.png);
+    top: 0;
+    z-index: -1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #393a3c;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    overflow: hidden;
+}
+
+.skill-snaps .skill-item {
+    padding: 10%;
+    background: #333333;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: -3px 0px 33.81px 15.19px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.skill-snaps .skill-item .hovershow {
+    visibility: hidden;
+
+
+}
+
+.skill-snaps .skill-item:hover .hovershow {
+    visibility: visible !important;
+    color: #faf000;
+    transition-delay: 400ms;
+    -webkit-transition-delay: 400ms;
+}
+
+.owl-prev {
+    color: #faf000 !important;
+    font-size: 53px !important;
+    margin-right: 1% !important;
+
+
+}
+
+.herderpadd {
+    text-transform: uppercase;
+    font-size: 50px !important;
+    font-weight: 300 !important;
+}
+
+.herderBigText {
+    font-size: 70px !important;
+    font-weight: 500;
+}
+
+.owl-prev:focus,
+.owl-prev:active {
+    border: none !important;
+}
+
+.owl-next {
+    color: #faf000 !important;
+    font-size: 53px !important;
+    margin-right: 9% !important;
+
+}
+
+.owl-next :focus,
+.owl-next :active {
+    border: none !important;
+}
+
+.widthdefine {
+    width: 100% !important;
+    font-weight: 500 !important;
+}
+
+.bussiness-intro {
+    margin-bottom: 100px;
+    margin-top: 3%;
+    padding-top: 120px;
+    position: relative;
+}
+
+.skill-snaps .setheight {
+    padding: 10%;
+    background: #333333;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: -3px 0px 33.81px 15.19px rgba(0, 0, 0, 0.2);
+    min-height: 316px !important;
+    transition: 0.6s;
+}
+
+.branding-skill-snaps .skill-item {
+    padding: 10%;
+    background: #333333;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: -3px 0px 33.81px 15.19px rgba(0, 0, 0, 0.2);
+    min-height: 418px !important;
+    transition: 0.6s;
+}
+
+.branding-skill-snaps .skill-item {
+    padding: 10%;
+    background: #333333;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: -3px 0px 33.81px 15.19px rgba(0, 0, 0, 0.2);
+    min-height: 418px !important;
+    transition: 0.6s;
+}
+
+.branding-skill-snaps .setheights {
+    padding: 10%;
+    background: #333333;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: -3px 0px 33.81px 15.19px rgba(0, 0, 0, 0.2);
+    min-height: 315px !important;
+    transition: 0.6s;
+}
+
+.branding-skill-snaps .setheight {
+    padding: 10%;
+    background: #333333;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: -3px 0px 33.81px 15.19px rgba(0, 0, 0, 0.2);
+    min-height: 325px !important;
+    transition: 0.6s;
+}
+
+.branding-skill-snaps .setheight1 {
+    padding: 10%;
+    background: #333333;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: -3px 0px 33.81px 15.19px rgba(0, 0, 0, 0.2);
+    min-height: 270px !important;
+    transition: 0.6s;
+}
+
+.branding-skill-snaps:after {
+    content: "";
+    height: 100%;
+    width: 90%;
+    position: absolute;
+    background-image: url(../img/bg/skills-bg.png);
+    top: 0;
+    z-index: -1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-position: right;
+    background-position-x: right;
+    background-position-y: center;
+    background-color: #333333 !important;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    overflow: hidden;
+}
+
+.sethr {
+    margin-bottom: 5%;
+    width: 65%;
+    border: 2px solid #faf000;
+}
+
+.skill-snaps .skill-item .content .action {
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 100;
+    text-transform: capitalize;
+    color: #fff000;
+}
